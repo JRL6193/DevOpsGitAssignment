@@ -4,7 +4,7 @@ TARGET = xmlreader
 SRC = main.cpp
 
 all:
-  $(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) -I/usr/include/libxml2 -lxml2
+	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET) `xml2-config --cflags --libs`
 
 clean:
-	del /Q $(TARGET).exe 2>nul || rm -f $(TARGET)
+	rm -f $(TARGET) $(TARGET).exe
