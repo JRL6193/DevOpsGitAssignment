@@ -44,6 +44,7 @@ int main(int argc, char *argv[]) {
     xmlCleanupParser();
 
     // Test push
+    // Test that git commits are working
 
     
     return 0;
