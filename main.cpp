@@ -43,6 +43,8 @@ int main(int argc, char *argv[]) {
     xmlFreeDoc(doc);
     xmlCleanupParser();
 
+    // Test push
+
     
     return 0;
 }
