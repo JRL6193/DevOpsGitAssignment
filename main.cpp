@@ -43,7 +43,6 @@ int main(int argc, char *argv[]) {
     xmlFreeDoc(doc);
     xmlCleanupParser();
 
-    // Change made here to print done after change
-    cout << "Done" << endl;
+    
     return 0;
 }
